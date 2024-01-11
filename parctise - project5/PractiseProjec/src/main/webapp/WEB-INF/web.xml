@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>PractiseProjec</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ValidateLogin</display-name>
+    <servlet-name>ValidateLogin</servlet-name>
+    <servlet-class>com.servlet.ValidateLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ValidateLogin</servlet-name>
+    <url-pattern>/ValidateLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ValidationLogin</display-name>
+    <servlet-name>ValidationLogin</servlet-name>
+    <servlet-class>com.servlet.ValidationLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ValidationLogin</servlet-name>
+    <url-pattern>/ValidationLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ValidationLogin1</display-name>
+    <servlet-name>ValidationLogin1</servlet-name>
+    <servlet-class>com.servlet.ValidationLogin1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ValidationLogin1</servlet-name>
+    <url-pattern>/ValidationLogin1</url-pattern>
+  </servlet-mapping>
+</web-app>
