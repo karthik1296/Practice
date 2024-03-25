@@ -1,0 +1,31 @@
+.container-fluid {
+  background-color: #202020af;
+  box-sizing: border-box;
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.box {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  /* border: 1px solid white; */
+  opacity: 0.8;
+  color: white;
+  margin: 0px 0px 100px 100px;
+}
+
+.container {
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+.tour-location {
+  position: absolute;
+  top: 80px;
+  right: 100px;
+}

@@ -1,0 +1,87 @@
+<div
+  class="container-fluid d-flex justify-content-center align-items-center p-5"
+>
+  <div class="box p-5">
+    <p class="fs-1 mb-5 fw-bold fst-italic">
+      Hi {{ UserName }}! What's Cooking?
+    </p>
+    <p class="fs-6 m-0">Thank you for joining us!</p>
+    <p class="fs-6 m-0">
+      Explore on our receipes and endorse the one's you find the best tasty!
+    </p>
+    <p class="fs-6">
+      All your followers would love to lead a healthy and hence happy lige!! Gp
+      ahead and help them lead a healthier life with your endorsements.
+    </p>
+  </div>
+  <!-- <div class="mt-0 p-5" style="width: 60%">
+    <table class="table table-success table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Title</th>
+          <th>File</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of List">
+          <td>{{ item.id }}</td>
+          <td>{{ item.name }}</td>
+          <td>
+            <button class="btn ms-2" (click)="handledownload(item.fileURL)">
+              <span class="material-symbols-outlined"> download </span>
+            </button>
+          </td>
+          <td>
+            <button class="btn ms-2" (click)="handleCopy(item)">
+              <span class="material-symbols-outlined"> edit </span>
+            </button>
+            <button class="btn ms-2" (click)="handleDelete(item.id)">
+              <span class="material-symbols-outlined"> delete </span>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="mt-5 p-5 border bg-light" style="width: 40%">
+    <h4 class="text-danger mb-4">USER RECEIPES</h4>
+    <form>
+      <div class="form-group mb-4 w-100 me-1">
+        <label for="exampleInputEmail1">Receipes Name</label>
+        <input type="text" class="form-control" id="name" />
+        <small id="nameHelp" class="form-text text-danger" style="display: none"
+          >Receipes Name Is Required</small
+        >
+      </div>
+      <div class="form-group mb-4 w-100 mx-1">
+        <label for="exampleInputPassword1">Upload PDF</label>
+        <input
+          type="file"
+          class="form-control"
+          id="resume"
+          accept=".pdf"
+          (change)="onFileSelected($event)"
+        />
+        <small id="fileHelp" class="form-text text-danger" style="display: none"
+          >File Is Required</small
+        >
+      </div>
+      <button
+        type="button"
+        class="btn btn-primary text-white float-start"
+        (click)="handleSubmit()"
+      >
+        Submit
+      </button>
+      <button
+        type="button"
+        class="btn btn-light text-dark float-end"
+        (click)="handleClear()"
+      >
+        Clear
+      </button>
+    </form>
+  </div> -->
+</div>
